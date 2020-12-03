@@ -4,6 +4,6 @@ resource "azuredevops_git_repository" "azuredevops_git_repository" {
   initialization {
     init_type = "Import"
     source_type = "Git"
-    source_url = "https://github.com/TerraHubCorp/terraform-azurerm-automation-demo.git"
+    source_url = "https://github.com/euliancom/Azure-demo"
   }
 }
