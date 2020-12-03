@@ -1,0 +1,4 @@
+component:
+  name: azuredevops_group
+  dependsOn:
+    - azuredevops_project
