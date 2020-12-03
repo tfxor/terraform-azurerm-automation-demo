@@ -10,3 +10,5 @@ project:
 
 terraform:
   #version: 0.13.5
+  varFile:
+    - default.tfvars
