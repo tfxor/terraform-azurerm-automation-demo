@@ -1,0 +1,4 @@
+component:
+  name: azuredevops_git_repository
+  dependsOn:
+    - azuredevops_project

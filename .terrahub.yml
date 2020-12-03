@@ -1,0 +1,9 @@
+project:
+  name: terraform-azurerm-automation-demo
+  code: 33er45tr
+  include:
+    - .
+  exclude:
+    - '**/.terraform/*'
+    - '**/node_modules/*'
+    - '**/.git/**'

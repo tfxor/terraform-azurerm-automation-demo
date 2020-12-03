@@ -1,0 +1,5 @@
+component:
+  name: azuredevops_build_definition
+  dependsOn:
+    - azuredevops_project
+    - azuredevops_git_repository
