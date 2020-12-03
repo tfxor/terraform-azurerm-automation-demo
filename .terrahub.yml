@@ -7,3 +7,6 @@ project:
     - '**/.terraform/*'
     - '**/node_modules/*'
     - '**/.git/**'
+
+terraform:
+  version: 0.13.5
