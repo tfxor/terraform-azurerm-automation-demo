@@ -1,0 +1,4 @@
+component:
+  name: azurerm_storage_container
+  dependsOn:
+    - azurerm_storage_account
