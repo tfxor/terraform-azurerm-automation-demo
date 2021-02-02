@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "terraform_azurerm_automation_demo_group" {
-  name     = "azurermautomationdemogroup"
-  location = "West Europe"
+  name     = "terraform-azurerm-automation-demo-resource-group"
+  location = "East US"
 }
