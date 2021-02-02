@@ -18,8 +18,8 @@ if [ "${THUB_STATE}" == *destroy* ]; then CICD_OPTS="${CICD_OPTS} -d"; fi
 if [ ! -z "${THUB_INCLUDE}" ]; then CICD_OPTS="${CICD_OPTS} -I \"^(${THUB_INCLUDE})\""; fi
 if [ ! -z "${THUB_EXCLUDE}" ]; then CICD_OPTS="${CICD_OPTS} -X \"^(${THUB_EXCLUDE})\""; fi
 
-echo "EXEC: terrahub run -y -s -p include ${CICD_OPTS}"
-terrahub run -y -s -p include ${CICD_OPTS}
+echo "EXEC: terrahub run -y -p include ${CICD_OPTS}"
+terrahub run -y -p include ${CICD_OPTS}
 ###########################################
 ### DO NOT ADD COMMANDS AFTER THIS LINE ###
 ###########################################
